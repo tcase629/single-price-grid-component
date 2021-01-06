@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -48,7 +49,6 @@ body {
     background-color: hsl(179, 62%, 43%);
     flex: 1;
     padding: 20px 40px;
-    width: 50%;
 }
 
 .sign-up h3 {
@@ -91,7 +91,6 @@ button {
     background-color: hsla(179, 62%, 48%, 0.8);
     font-size: 16px;
     padding: 20px 40px;
-    width: 50%;
 }
 
 .benefits h3 {
@@ -113,5 +112,7 @@ ul {
     .bottom {
         flex-direction: column;
     }
+
+    
 }
     
